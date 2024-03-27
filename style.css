@@ -1,0 +1,65 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+#form {
+  width: 400px;
+  margin: 20vh auto 0 auto;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 30px;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  color: #94bbe9;
+}
+#form button {
+  background-color: rgb(148, 187, 233);
+  background: radial-gradient(
+    circle,
+    rgba(148, 187, 233, 1) 0%,
+    rgba(235, 175, 204, 1) 93%,
+    rgba(234, 175, 204, 1) 94%,
+    rgba(238, 174, 202, 1) 94%
+  );
+  color: rgb(0, 0, 0);
+  border: 1px solid #01060b;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 20px 0px;
+  cursor: pointer;
+  width: 100%;
+  border-style: calc(0px);
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.input-group input {
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #94bbe9;
+}
+.input-group .error {
+  color: red;
+  font-size: 16px;
+  margin: 5px;
+}
+.input-group.success input {
+  border-color: rgb(25, 238, 25);
+}
+.input-group.error input {
+  border-color: red;
+}
